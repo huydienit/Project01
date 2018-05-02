@@ -1,0 +1,8 @@
+composer.lock
+composer.phar
+phpunit.xml
+vendor
+src/configs/laravel-cms.local/*
+src/configs/afp.admicro.local/*
+src/configs/adtech-cms.admicro.local/*
+src/configs/video-analytics.admicro.local/*

@@ -1,0 +1,71 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "barryvdh/laravel-ide-helper": "^2.3",
+        "google/recaptcha": "~1.1",
+        "guzzlehttp/guzzle": "^6.2",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0",
+        "silber/bouncer": "v1.0.0-beta.2",
+        "tymon/jwt-auth": "0.5.*",
+        "phpoffice/phpexcel": "1.8.1"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Adtech\\Application\\": "packages/adtech/application/src/",
+            "Adtech\\Templates\\": "packages/adtech/templates/src/",
+            "Adtech\\Core\\": "packages/adtech/core/src/",
+            "Adtech\\VideoAnalytics\\": "packages/adtech/video-analytics/src/",
+            "Adtech\\Api\\": "packages/adtech/api/src/",
+            "Afp\\Core\\": "packages/afp/core/src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "database",
+            "packages/adtech/application/src/",
+            "packages/adtech/templates/src/",
+            "packages/adtech/core/src/",
+            "packages/adtech/video-analytics/src/",
+            "packages/adtech/api/src/",
+            "packages/afp/core/src/"
+        ],
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}

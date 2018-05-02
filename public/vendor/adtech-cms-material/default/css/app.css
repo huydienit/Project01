@@ -1,0 +1,38 @@
+.bg-danger{
+    background-color: #fc8675!important;
+    color: #fff!important;
+}
+.bg-info {
+    background-color: #6bafbd;
+    color: #fff;
+}
+.bg-warning {
+    background-color: #f3ce85;
+    color: #fff;
+}
+.bg-success {
+    background-color: #65cea7;
+    color: #fff;
+}
+md-grid-list.box_total md-grid-tile{
+    margin-bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+
+.box_total md-grid-tile-header{position: absolute; top:0px; left:60%; background: none; height: 80%}
+.box_total md-grid-tile-header i{font-size:100; color:#FFFFFF; opacity: .5}
+.box_total md-grid-tile-header figcaption{margin:0 auto}
+
+.box_total md-grid-tile-content{position: absolute; top:10px; left:30px}
+.box_total md-grid-tile-content h3{font-size:40px; font-family: inherit; overflow: hidden;  text-shadow: 0px 2px 3px #555;
+}
+
+.box_total md-grid-tile-footer{position: absolute; top:90px; left:15px !important; background: none; line-height: 30px !important;}
+.box_total md-grid-tile-footer h3{font-size:18px;}
+.box_total md-grid-tile-footer p{font-size:12px; margin:0; margin-left: 16px; line-height: 30px !important;}
+.box_total md-grid-tile-footer i{font-size:18px; vertical-align:-20%}

@@ -1,0 +1,22 @@
+<?php
+
+namespace vendor_namespace\package_namespace\Repositories;
+
+use Adtech\Application\Cms\Repositories\Contracts\RepositoryInterface;
+use Adtech\Application\Cms\Repositories\Eloquent\Repository;
+
+/**
+ * Class repository_namespaceRepository
+ * @package vendor_namespace\package_namespace\Repositories
+ */
+class repository_namespaceRepository extends Repository
+{
+
+    /**
+     * @return string
+     */
+    public function model()
+    {
+        return 'model_path\model_name';
+    }
+}

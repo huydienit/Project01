@@ -1,0 +1,1 @@
+<p>Core - Dashboard - Index View</p>

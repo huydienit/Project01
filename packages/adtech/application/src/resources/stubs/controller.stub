@@ -1,0 +1,11 @@
+<?php
+
+namespace vendor_namespace\package_namespace\App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Adtech\Application\Cms\Controllers\Controller as Controller;
+
+class controller_namespaceController extends Controller
+{
+
+}

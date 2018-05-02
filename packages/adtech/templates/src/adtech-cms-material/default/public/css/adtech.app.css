@@ -1,0 +1,238 @@
+.container-login {
+    margin-top: 50px;
+}
+
+.container-login .message {
+    text-align: center;
+}
+
+.container-login .form-login {
+    width: 350px;
+}
+
+/** loading **/
+.loading-container {
+    display: none;
+    z-index: 9000;
+}
+
+.loading-overlay {
+    background: #fff;
+    height: 100%;
+    opacity: .4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+    display: none;
+}
+
+.loading-container .loading-gif {
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    z-index: 9999;
+}
+
+.loading-container .loading-gif > div {
+    position: fixed;
+    top: 50%;
+    z-index: 9000;
+}
+
+/** menu panel **/
+.menu-panel-container {
+    pointer-events: auto;
+}
+
+.menu-panel {
+    width: 256px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.menu-panel .menu-divider {
+    width: 100%;
+    height: 1px;
+    min-height: 1px;
+    max-height: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.menu-panel .menu-content {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    max-height: 305px;
+    overflow-y: auto;
+    min-width: 256px;
+}
+
+.menu-panel .menu-item {
+    display: flex;
+    flex-direction: row;
+    min-height: 48px;
+    height: 48px;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.menu-panel .menu-item > * {
+    width: 100%;
+    margin: auto 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.menu-panel .menu-item > a.md-button {
+    padding-top: 5px;
+}
+
+.menu-panel .menu-item > .md-button {
+    display: inline-block;
+    border-radius: 0;
+    margin: auto 0;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 400;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    text-align: left;
+}
+
+.menu-panel .menu-item > .md-button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.menu-panel .menu-item > .md-button md-icon {
+    margin: auto 16px auto 0;
+}
+
+.menu-panel .menu-item > .md-button p {
+    display: inline-block;
+    margin: auto;
+}
+
+.menu-panel .menu-item > .md-button span {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu-panel .menu-item > .md-button .md-ripple-container {
+    border-radius: inherit;
+}
+
+.icondemoFontIconsWithLigatures {
+    /* Rules for sizing the icon.*/
+    /* Rules for using icons as black on a light background.*/
+    /* Rules for using icons as white on a dark background.*/
+}
+
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures {
+    padding: 25px;
+    width: 100%;
+}
+
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures,
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures *:before,
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures *:after {
+    box-sizing: border-box;
+}
+
+.icondemoFontIconsWithLigatures header {
+    overflow: hidden;
+}
+
+.icondemoFontIconsWithLigatures header h1 {
+    color: #888;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.icondemoFontIconsWithLigatures .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 960px;
+    padding: 40px 40px;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.icondemoFontIconsWithLigatures .glyph {
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0 20px;
+    margin-bottom: 20px;
+}
+
+.icondemoFontIconsWithLigatures .preview-scale,
+.icondemoFontIconsWithLigatures .preview-glyphs {
+    display: flex;
+    flex-direction: row;
+}
+
+.icondemoFontIconsWithLigatures .preview-scale {
+    color: #888;
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.icondemoFontIconsWithLigatures .step {
+    flex-grow: 1;
+    line-height: 0.5;
+}
+
+.icondemoFontIconsWithLigatures .usage {
+    margin-top: 10px;
+}
+
+.icondemoFontIconsWithLigatures .usage input {
+    font-family: monospace;
+    text-align: center;
+}
+
+.icondemoFontIconsWithLigatures .usage .point {
+    width: 150px;
+}
+
+.icondemoFontIconsWithLigatures .usage .class {
+    width: 250px;
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-18 {
+    font-size: 18px;
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-24 {
+    font-size: 24px;
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-36 {
+    font-size: 36px;
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-48 {
+    font-size: 48px;
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-light {
+    color: white;
+}
+
+.icondemoFontIconsWithLigatures .material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
+

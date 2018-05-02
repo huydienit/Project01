@@ -1,0 +1,113 @@
+.bg-danger{
+    background-color: #fc8675!important;
+    color: #fff!important;
+}
+.bg-info {
+    background-color: #6bafbd;
+    color: #fff;
+}
+.bg-warning {
+    background-color: #f3ce85;
+    color: #fff;
+}
+.bg-success {
+    background-color: #65cea7;
+    color: #fff;
+}
+.link {
+    color: #337ab7
+}
+.txt-silver i{color:#C2C2C2}
+.box_breadcrumb .md-button{margin: 0px; min-height: 30px; min-width: 70px;
+    font-size: 12px; line-height: 30px; padding-left: 0px;
+    -webkit-box-shadow: inset 0px 0px 6px -2px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: inset 0px 0px 6px -2px rgba(0,0,0,0.75) !important;
+    box-shadow: inset 0px 0px 6px -2px rgba(0,0,0,0.75) !important;}
+.box_breadcrumb md-datepicker .md-button{-webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important}
+.box_breadcrumb .no-bg{-webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important}
+.box_breadcrumb .md-button .material-icons{font-size: 18px; line-height: 20px}
+.box_breadcrumb .md-datepicker-button{min-width: 30px}
+.box_breadcrumb .md-icon-button + .md-datepicker-input-container{margin:0px}
+md-grid-list.box_total md-grid-tile{
+    margin-bottom: 0px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+    min-height: 150px;
+    min-width: 25%;
+}
+.md-tooltip {
+    height: 30px !important;
+    background-color: #82B950 !important;
+    color: white !important;
+    border-radius: 5px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.box_breadcrumb{position: relative;}
+.action_breadcrumb{position: absolute; right:5px; top:6px}
+/* Style the list */
+ul.breadcrumb {
+    padding: 5px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 14px;
+    -webkit-box-shadow: 0px 3px 5px -3px rgba(61,61,61,1);
+    -moz-box-shadow: 0px 3px 5px -3px rgba(61,61,61,1);
+    box-shadow: 0px 3px 5px -3px rgba(61,61,61,1);
+}
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    margin: 0;
+}
+ul.breadcrumb li h2{
+    display: inline;
+    font-size: 16px;
+    font-weight: normal;
+}
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "›\00a0";
+    font-size:20px
+}
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+a{color:#337ab7}
+a:hover{text-decoration: underline}
+.txt-center{text-align: center !important;}
+.txt-left{text-align: left !important;}
+.txt-right{text-align: right !important;}
+table.md-table th.md-column{position: relative}
+table.md-table th.md-column md-icon{position: absolute; right: 30px; top:15px}
+table.md-table th.md-column:last-child md-icon{right:0px}
+table.md-table th.md-column:first-child md-icon{right:10px}
+
+.md-table-pagination .label{color:rgba(29, 29, 29, 0.87) !important; font-size: 12px !important; font-weight: normal !important;}
+.box_total md-grid-tile-header{position: absolute; top:0px; left:60%; background: none; height: 80%}
+.box_total md-grid-tile-header i{font-size:100; color:#FFFFFF; opacity: .5}
+.box_total md-grid-tile-header figcaption{margin:0 auto}
+
+.box_total md-grid-tile-content{position: absolute; top:10px; left:30px}
+.box_total md-grid-tile-content h3{font-size:40px; font-family: inherit; overflow: hidden;  text-shadow: 0px 2px 3px #555;
+}
+
+.box_total md-grid-tile-footer{position: absolute; top:90px; left:15px !important; background: none; line-height: 30px !important;}
+.box_total md-grid-tile-footer h3{font-size:18px;}
+.box_total md-grid-tile-footer p{font-size:12px; margin:0; margin-left: 16px; line-height: 30px !important;}
+.box_total md-grid-tile-footer i{font-size:18px; vertical-align:-20%}

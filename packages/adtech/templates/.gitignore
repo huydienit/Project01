@@ -1,0 +1,6 @@
+composer.lock
+composer.phar
+phpunit.xml
+vendor
+src/afp
+src/afp-cms-material
